@@ -1,0 +1,21 @@
+[project]
+name = "roblox-model-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sumygin", email = "mikhailsumygin@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bpy>=5.2.0",
+    "mcp>=2.0.0",
+    "tsr>=0.0.3",
+]
+
+[project.scripts]
+roblox-model-generator = "roblox_model_generator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
